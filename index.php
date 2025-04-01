@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="volume of pyramid, with JS" />
+  <meta name="description" content="volume of pyramid, with PHP" />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="domenic dangelo" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,7 +19,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   <link rel="manifest" href="site.webmanifest" />
-  <title>volume of pyramid, with JS</title>
+  <title>volume of pyramid, with PHP</title>
 </head>
 
 <body>
@@ -27,7 +27,7 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">volume of pyramid, with JS</span>
+        <span class="mdl-layout-title">volume of pyramid, with PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
@@ -82,16 +82,9 @@
         </div>
         <span>mm</span>
         <br />
-        <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="calculate()"
-          type="button">
-          Calculate volume
-        </button>
-      </form>
-      <br />
-      <div class="page-content-answer">
-        <div id="answer"></div>
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+        type="submit">
+        Calculate
       </div>
     </main>
   </div>
