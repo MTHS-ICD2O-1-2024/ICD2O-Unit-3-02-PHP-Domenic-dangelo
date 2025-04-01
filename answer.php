@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- ICS2O-Unit3-01-HTML-MDL -->
+<!-- ICS2O-Unit3-02-HTML-MDL -->
 <html lang="en-ca">
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Area of a trapezoid, with PHP" />
+  <meta name="description" content="volume of pyramid, with PHP" />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="domenic dangelo" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,7 +15,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   <link rel="manifest" href="site.webmanifest" />
-  <title>Area of a trapezoid, with PHP</title>
+  <title>volume of pyramid, with PHP</title>
 </head>
 
 <body>
@@ -23,12 +23,12 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Area of a trapezoid, with PHP</span>
+        <span class="mdl-layout-title">volume of pyramid, with PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/trapezoid.svg" alt="area of trapezoid" />
+        <img src="./images/pyramid.png" alt="area of pyramid" />
       </div>
       <div class="page-content-php">
         <div id="user-info">
@@ -39,7 +39,7 @@
           // process
           $volume = ($lengthOfPyramid + $widthOfPyramid * $heightOfPyramid) / 3;
           // output
-          echo "The volume of the pyramid" . $volume . " cm³.";
+          echo "The volume of the pyramid " . $volume . " cm³.";
           ?>
           <div class="page-content-answer">
             <a href="./index.php">Return</a>

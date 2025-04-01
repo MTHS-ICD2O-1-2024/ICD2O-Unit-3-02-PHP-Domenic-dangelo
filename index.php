@@ -56,7 +56,7 @@
         </div>
         <span>mm</span>
         <br />
-        <span>height:</span>
+        <span>width:</span>
         <div class="mdl-textfield mdl-js-textfield">
           <input
             class="mdl-textfield__input"
@@ -82,9 +82,10 @@
         </div>
         <span>mm</span>
         <br />
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-        type="submit">
-        Calculate
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          type="submit">
+          Calculate
+        </button>
       </div>
     </main>
   </div>
