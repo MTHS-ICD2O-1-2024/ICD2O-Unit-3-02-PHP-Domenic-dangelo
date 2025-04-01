@@ -41,7 +41,7 @@
       <br />
       <h3 class="page-content">Please enter integers for dimensions:</h3>
       <br />
-      <form>
+      <form action="answer.php" method="GET">
         <!-- Simple Textfield -->
         <span>length:</span>
         <div class="mdl-textfield mdl-js-textfield">
