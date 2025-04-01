@@ -28,7 +28,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/pyramid.png" alt="area of pyramid" />
+        <img src="./images/pyramid.png" alt="volume of pyramid" />
       </div>
       <div class="page-content-php">
         <div id="user-info">
