@@ -33,7 +33,6 @@
     <main class="mdl-layout__content">
       <div class="right-image">
         <img src="./images/pyramid.png" alt="pyramid" />
-        <p></p>
       </div>
       <h1 class="page-content">Formula</h1>
       <br />
@@ -51,7 +50,7 @@
             pattern="-?[0-9]*(\.[0-9]+)?"
             id="length"
             step="0.01" />
-          <label class="mdl-textfield__label" for="length"></label>
+          <label class="mdl-textfield__label" for="length" name="length"></label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
         <span>mm</span>
@@ -64,7 +63,7 @@
             pattern="-?[0-9]*(\.[0-9]+)?"
             id="width"
             step="0.01" />
-          <label class="mdl-textfield__label" for="width"></label>
+          <label class="mdl-textfield__label" for="width" name="width"></label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
         <span>mm</span>
@@ -77,7 +76,7 @@
             pattern="-?[0-9]*(\.[0-9]+)?"
             id="height"
             step="0.01" />
-          <label class="mdl-textfield__label" for="height"></label>
+          <label class="mdl-textfield__label" for="height" name="height"></label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
         <span>mm</span>
@@ -86,8 +85,8 @@
           type="submit">
           Calculate
         </button>
-      </div>
-    </main>
+  </div>
+  </main>
   </div>
 </body>
 

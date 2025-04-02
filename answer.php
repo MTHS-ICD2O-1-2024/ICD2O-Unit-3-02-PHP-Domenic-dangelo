@@ -28,7 +28,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/pyramid.png" alt="volume of pyramid" />
+        <img src="./images/pyramid.png" alt="pyramid" />
       </div>
       <div class="page-content-php">
         <div id="user-info">
@@ -37,9 +37,9 @@
           $widthOfPyramid = $_GET["width"];
           $heightOfPyramid = $_GET["height"];
           // process
-          $volume = ($lengthOfPyramid + $widthOfPyramid * $heightOfPyramid) / 3;
+          $volume = ($lengthOfPyramid * $widthOfPyramid * $heightOfPyramid) / 3;
           // output
-          echo "The volume of the pyramid " . $volume . " cm³.";
+          echo "The volume of the prism is " . $volume . " cm³.";
           ?>
           <div class="page-content-answer">
             <a href="./index.php">Return</a>
