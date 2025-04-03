@@ -48,9 +48,9 @@
             class="mdl-textfield__input"
             type="text"
             pattern="-?[0-9]*(\.[0-9]+)?"
-            id="length"
+            name="length"
             step="0.01" />
-          <label class="mdl-textfield__label" for="length" name="length"></label>
+          <label class="mdl-textfield__label" for="length"></label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
         <span>mm</span>
@@ -61,9 +61,9 @@
             class="mdl-textfield__input"
             type="text"
             pattern="-?[0-9]*(\.[0-9]+)?"
-            id="width"
+            name="width"
             step="0.01" />
-          <label class="mdl-textfield__label" for="width" name="width"></label>
+          <label class="mdl-textfield__label" for="width"></label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
         <span>mm</span>
@@ -74,9 +74,9 @@
             class="mdl-textfield__input"
             type="text"
             pattern="-?[0-9]*(\.[0-9]+)?"
-            id="height"
+            name="height"
             step="0.01" />
-          <label class="mdl-textfield__label" for="height" name="height"></label>
+          <label class="mdl-textfield__label" for="height"></label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
         <span>mm</span>

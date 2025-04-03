@@ -38,8 +38,9 @@
           $heightOfPyramid = $_GET["height"];
           // process
           $volume = ($lengthOfPyramid * $widthOfPyramid * $heightOfPyramid) / 3;
+          $roundNumber = round($volume, 3);
           // output
-          echo "The volume of the prism is " . $volume . " cm³.";
+          echo "The volume of the prism is " . $roundNumber . " cm³.";
           ?>
           <div class="page-content-answer">
             <a href="./index.php">Return</a>
